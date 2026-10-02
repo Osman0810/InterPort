@@ -42,7 +42,7 @@ export default function Home() {
                 Download résumé <span aria-hidden="true">↓</span>
               </a>
               <a className="button button-secondary" href="#contact">
-                Let’s connect <span aria-hidden="true">↗</span>
+                Let’s connect <span aria-hidden="true">{"\u2197\uFE0E"}</span>
               </a>
             </div>
             <div className="hero-specialties mono">
@@ -73,10 +73,10 @@ export default function Home() {
             <p>{portfolio.about.biography}</p>
             <div className="about-principles">
               <span>
-                <span aria-hidden="true">↗</span> From data to application
+                <span aria-hidden="true">{"\u2197\uFE0E"}</span> From data to application
               </span>
               <span>
-                <span aria-hidden="true">↗</span> Built with reliability in
+                <span aria-hidden="true">{"\u2197\uFE0E"}</span> Built with reliability in
                 mind
               </span>
             </div>
@@ -172,7 +172,7 @@ export default function Home() {
               href={`mailto:${portfolio.contact.email}`}
             >
               {portfolio.contact.email}
-              <span aria-hidden="true">↗</span>
+              <span aria-hidden="true">{"\u2197\uFE0E"}</span>
             </a>
             <div className="contact-secondary">
               <a
@@ -181,7 +181,7 @@ export default function Home() {
                 target="_blank"
                 rel="noreferrer"
               >
-                LinkedIn <span aria-hidden="true">↗</span>
+                LinkedIn <span aria-hidden="true">{"\u2197\uFE0E"}</span>
               </a>
               <a
                 className="text-link"

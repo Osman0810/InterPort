@@ -12,7 +12,7 @@ export function SiteHeader({
       <div className="site-shell header-inner">
         <a className="wordmark" href="#top" aria-label="Back to top">
           <span className="brand-symbol" aria-hidden="true">
-            ✳
+            {"\u2733\uFE0E"}
           </span>
           {initials}
           <span className="brand-period">.</span>
@@ -27,7 +27,7 @@ export function SiteHeader({
           </ul>
         </nav>
         <a className="header-contact mono" href="#contact">
-          LET’S TALK <span aria-hidden="true">↗</span>
+          LET’S TALK <span aria-hidden="true">{"\u2197\uFE0E"}</span>
         </a>
       </div>
     </header>

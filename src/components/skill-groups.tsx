@@ -13,7 +13,7 @@ export function SkillGroups({ groups }: { groups: SkillGroup[] }) {
           >
             <div className="skill-group-top">
               <span className="mono">0{index + 1}</span>
-              <span aria-hidden="true">↗</span>
+              <span aria-hidden="true">{"\u2197\uFE0E"}</span>
             </div>
             <h3 id={id}>{group.category}</h3>
             <ul className="tag-list">

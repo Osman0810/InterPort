@@ -65,13 +65,13 @@ export function WorkflowExplorer({ stages }: { stages: WorkflowStage[] }) {
               <span className="node-number mono">0{index + 1}</span>
               <span>{stage.label}</span>
               <span className="node-symbol" aria-hidden="true">
-                {["▤", "⌕", "✳", "↗"][index]}
+                {["▤", "⌕", "\u2733\uFE0E", "\u2197\uFE0E"][index]}
               </span>
             </button>
           ))}
         </div>
         <p className="map-hint mono">
-          SELECT A STAGE TO EXPLORE <span aria-hidden="true">↗</span>
+          SELECT A STAGE TO EXPLORE <span aria-hidden="true">{"\u2197\uFE0E"}</span>
         </p>
       </div>
       <div

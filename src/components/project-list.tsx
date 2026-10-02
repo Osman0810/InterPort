@@ -44,7 +44,7 @@ export function ProjectList({ projects }: { projects: Project[] }) {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      View on GitHub <span aria-hidden="true">↗</span>
+                      View on GitHub <span aria-hidden="true">{"\u2197\uFE0E"}</span>
                     </a>
                   ) : null}
                   {project.demoUrl ? (
@@ -54,7 +54,7 @@ export function ProjectList({ projects }: { projects: Project[] }) {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Live demo <span aria-hidden="true">↗</span>
+                      Live demo <span aria-hidden="true">{"\u2197\uFE0E"}</span>
                     </a>
                   ) : null}
                 </div>
